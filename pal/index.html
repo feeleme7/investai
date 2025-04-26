@@ -1,0 +1,81 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Site da Invest Ai: Auxiliamos pessoas a investir em rendas fixas com base em sua renda mensal.">
+        <title>Invest Ai</title>
+        <link rel="icon" href="images/favicon.ico" type="images/x-icon">
+        <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+    </head>
+</head>
+<body>
+    <!-- Apresentação da Empresa -->
+    <section id="hero" class="fade-in">
+        <div class="container">
+            <h2>Bem-vindo à <span class="highlight">Invest Ai</span></h2>
+            <p>Somos especialistas em ajudar você a investir com segurança e inteligência.</p>
+        </div>
+    </section>
+
+<section id="benefits" class="fade-in">
+    <div class="container">
+        <h2>Por que escolher a <span class="highlight">Invest Ai</span>?</h2>
+        <p>Com anos de experiência no mercado financeiro, oferecemos soluções personalizadas para ajudar você a alcançar seus objetivos financeiros. Aqui estão alguns motivos para confiar em nós:</p>
+        <div class="benefits-grid">
+            <div class="benefit">
+                <h3>Segurança</h3>
+                <p>Trabalhamos apenas com instituições confiáveis e investimentos seguros para proteger seu patrimônio.</p>
+            </div>
+            <div class="benefit">
+                <h3>Suporte Personalizado</h3>
+                <p>Nossa equipe está pronta para ajudar você a escolher as melhores opções de investimento para o seu perfil.</p>
+            </div>
+            <div class="benefit">
+                <h3>Resultados Comprovados</h3>
+                <p>Milhares de clientes já alcançaram seus objetivos financeiros com a nossa ajuda.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <!-- Por que saber investir? -->
+    <section id="why-invest" class="fade-in">
+        <div class="container">
+            <h2>Por que saber investir?</h2>
+            <p>Investir é essencial para alcançar seus objetivos financeiros, proteger seu patrimônio e garantir um futuro mais seguro. Com a <span class="highlight">Invest Ai</span>, você aprende a investir de forma prática e eficiente.</p>
+        </div>
+    </section>
+
+    <section id="investment-intro" class="fade-in">
+        <div class="container">
+            <h2>Você quer investir?</h2>
+            <p>Então venha aprender mais sobre como fazer seu dinheiro trabalhar para você. Descubra as melhores opções de investimentos e comece a construir um futuro financeiro mais seguro.</p>
+            <label for="income-range">Selecione sua faixa de renda mensal:</label>
+            <input type="range" id="income-range" min="0" max="3" step="1" value="0" oninput="updateRangeLabel(this.value)">
+            <p id="range-label">R$ 0 a R$ 1.000</p>
+            <button onclick="redirectToPage()">Saber Mais</button>
+        </div>
+    </section>
+
+    <!-- Rodapé -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Invest Ai. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+
+        <!-- Botão Flutuante do WhatsApp -->
+        <a href="https://wa.me/5511993074581?text=Olá, estou com uma dúvida sobre os investimentos." target="_blank" class="whatsapp-button">
+            <img src="images/whatsapp.png" alt="WhatsApp">
+        </a>
+</body>
+
